@@ -44,3 +44,89 @@ true y false son valores booleanos.
 
 null representa la ausencia de un objeto o referencia.
 
+  5. Manejo de memoria y referencias
+new    // Crea una nueva instancia de una clase
+this   // Referencia al objeto actual
+super  // Referencia a la superclase inmediata
+
+Estas palabras permiten manipular objetos y relacionarlos con sus clases padre o instancias actuales.
+
+Clasificación de los tipos de datos
+1. Tipos primitivos
+
+Representan los datos básicos del lenguaje (números, caracteres, booleanos).
+Son los más eficientes en términos de memoria y rendimiento.
+
+2. Tipos no primitivos
+
+Incluyen objetos, arreglos (arrays) y cadenas (String).
+Aportan mayor flexibilidad y funcionalidad, pero consumen más recursos.
+
+OPERADORES EN JAVA
+Los operadores permiten realizar operaciones sobre variables y valores.
+
+  1. Operadores aritméticos
+
+Se usan para realizar operaciones matemáticas básicas.
+Ejemplo de algunos:
++   // Suma
+-   // Resta
+*   // Multiplicación
+/   // División
+%   // Módulo (resto de la división)
+
+Estos operadores son comunes en expresiones matemáticas y cálculos dentro del programa.
+
+  2. Operadores relacionales
+
+Sirven para comparar valores y devuelven un resultado booleano (true o false):
+
+==   // Igualdad
+!=   // Diferente
+>    // Mayor que
+<    // Menor que
+>=   // Mayor o igual que
+<=   // Menor o igual que
+
+Estos operadores son fundamentales en estructuras de control (if, while, for, etc.).
+
+  3. Operadores de asignación
+
+Asignan o modifican el valor de una variable:
+
+=   // Asignación simple
++=  // Suma y asigna
+-=  // Resta y asigna
+*=  // Multiplica y asigna
+/=  // Divide y asigna
+%=  // Módulo y asigna
+
+Permiten escribir código más compacto y legible al actualizar valores de variables.
+
+  4. Operadores unarios
+
+Operan sobre un solo operando:
+
+++  // Incrementa en 1
+--  // Decrementa en 1
+!   // Niega un valor booleano
+
+Se usan para modificar directamente una variable o invertir valores lógicos.
+
+  5. Operador ternario
+
+Forma simplificada de una estructura if-else:
+
+variable = (condición) ? valor_si_verdadero : valor_si_falso;
+EJEMPLO: 
+int edad = 20;
+String resultado = (edad >= 18) ? "Mayor de edad" : "Menor de edad";
+
+CONVERSIÓN DE TIPOS
+Java puede convertir tipos numéricos de menor a mayor capacidad de manera automática:
+
+byte → short → int → long → float → double
+
+
+Este proceso se conoce como promoción automática de tipos o casting implícito.
+También puede hacerse de forma manual (casting explícito) cuando se necesita reducir el tipo de dato.
