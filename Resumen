@@ -1,0 +1,46 @@
+1.2. Lista de palabras reservadas en Java
+
+Estas son las palabras clave que Java reserva para su propio uso.
+No pueden utilizarse como nombres de variables, clases o métodos.
+  1. Palabras para la definición de estructura
+class       // Declara una clase
+interface   // Declara una interfaz
+enum        // Declara un tipo enumerado
+extends     // Indica herencia entre clases
+implements  // Indica que una clase implementa una interfaz
+package     // Define el paquete al que pertenece una clase
+import      // Permite incluir clases o paquetes externos
+
+Estas palabras estructuran el código Java: definen cómo se organiza y cómo se relacionan las clases entre sí.
+
+  2. Palabras para el flujo de control
+if, else              // Condicionales
+switch, case, default // Estructuras de selección múltiple
+for, while, do        // Bucles o ciclos
+break                 // Sale de un bucle o switch
+continue              // Pasa a la siguiente iteración del bucle
+return                // Finaliza un método y devuelve un valor
+try, catch, finally, throw, throws // Manejo de excepciones
+
+Estas palabras controlan el orden de ejecución del programa, permiten tomar decisiones y manejar errores.
+
+  3. Tipos de datos y modificadores
+// Tipos primitivos
+int, float, double, boolean, char, byte, short, long
+
+// Modificadores de acceso
+public, private, protected
+
+// Otros modificadores
+static, final, abstract, synchronized, volatile, transient, strictfp, native
+
+Los tipos primitivos son los datos más básicos del lenguaje.
+Los modificadores controlan la visibilidad, comportamiento o estado de variables y métodos.
+
+  4. Palabras para valores constantes
+true, false, null
+
+true y false son valores booleanos.
+
+null representa la ausencia de un objeto o referencia.
+
